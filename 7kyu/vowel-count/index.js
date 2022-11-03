@@ -1,0 +1,1 @@
+const getCount = str => str.split('').filter(c => c.match(/[aeiou]/gi)).length;
