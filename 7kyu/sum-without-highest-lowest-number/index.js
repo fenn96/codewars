@@ -1,0 +1,1 @@
+const sumArray = array => !array ? 0 : array.sort((a,b) => a - b).slice(1,-1).reduce((a,c) => a + c,0);
