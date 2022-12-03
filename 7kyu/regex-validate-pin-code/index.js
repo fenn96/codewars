@@ -1,0 +1,1 @@
+const validatePIN = (pin) => pin.match(/^[0-9]+$/) !== null && (pin.length === 4 || pin.length === 6);
