@@ -1,0 +1,1 @@
+const points = games => games.reduce((a,c) => Number(c[0]) > Number(c[2]) ? a + 3 : Number(c[0]) < Number(c[2]) ? a : a + 1,0);
