@@ -1,0 +1,1 @@
+const DNAStrand = dna => dna.split('').map(c => c === 'A' ? 'T' : c === 'T' ? 'A' : c === 'G' ? 'C' : c === 'C' ? 'G' : 0).join('');
