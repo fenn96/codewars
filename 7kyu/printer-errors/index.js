@@ -1,0 +1,1 @@
+const printerError = s => s.split('').reduce((a,c) => c.match(/[a-m]/) ? a : a + 1,0) + '/' + s.length;
